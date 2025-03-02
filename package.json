@@ -1,0 +1,32 @@
+{
+  "name": "alephnullptr.github.io",
+  "version": "0.0.1",
+  "description": "Gesticulating emptily at the infinite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts,tsx",
+    "lint:fix": "eslint src --ext .ts,tsx --fix",
+    "tailwind:watch": "tailwindcss -i ./src/styles/globals.css -o ./dist/assets/styles.css --watch"
+  },
+  "author": "alephnullptr",
+  "license": "MIT",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.9",
+    "@types/node": "^22.13.8",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.21.0",
+    "eslint-plugin-import": "^2.31.0",
+    "postcss": "^8.5.3",
+    "solid-js": "^1.9.5",
+    "tailwindcss": "^4.0.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-solid": "^2.11.6"
+  }
+}

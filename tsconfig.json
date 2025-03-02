@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "jsxImportSource": "solid-js",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "module": "ES6",
+        "target": "ES6",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node"
+    },
+    "include": ["src/**/*"]
+  }
