@@ -15,7 +15,9 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: build site
-        run: pnpm run build
+        run: |
+          pnpm install
+          pnpm run build
 
       - name: upload static files
         uses: actions/upload-pages-artifact@v3
