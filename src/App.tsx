@@ -1,13 +1,15 @@
-import Logo from "./assets/logo";
+import Logo from './assets/logo';
+import { Collapsible } from './components/collapsible';
 
 export default function App() {
-    return (
-        <div class="p-6">
-            <div class="flex justify-center">
-                <Logo />
-            </div>
-            <h1 class="text-4xl text-center">AlephNullptr</h1>
-            <p class="mt-2 text-center">Under construction</p>
-        </div>
-    );
+  return (
+    <div class="p-6">
+      <div class="flex justify-center">
+        <Logo />
+      </div>
+      <h1 class="text-4xl text-center">AlephNullptr</h1>
+      <p class="mt-2 text-center">Under construction</p>
+      <Collapsible />
+    </div>
+  );
 }
